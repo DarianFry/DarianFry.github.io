@@ -59,23 +59,47 @@
             <!-- Projects-->
             <section class="resume-section" id="projects">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Projects</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Buses R' Us - Java Android Application</h3>
-                            <a href="https://github.com/DarianFry/BusesRUs">https://github.com/DarianFry/BusesRUs</a>
-                            <img src="assets/img/busesRus.jpg" style="float:left; margin-right:50px; cursor:pointer; cursor:hand; border:0" width="365" height="360" alt="Buses R' Us image"> 
-                            <p>A map application that marks stops and bus routes on the Greater Vancouver Transit system (Translink), retrieves real time arrival information at stops, plots user’s location on the map, and highlights the nearest stop. Extracted and implemented <b>Java</b> class associations from <b>UML</b> class diagrams. Wrote and executed extensive unit tests for robust classes in <b>jUnit</b>. Built multiple parsers including a string parser, <b>JSON Object parser</b>, and <b>JSON Array parser</b></p>
-                           </div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Travelling Salesman Problem - C++ Research Project</h3>
-                            <a href="https://github.com/DarianFry/TravellingSalesman">https://github.com/DarianFry/TravellingSalesman</a>
-                            <img src="assets/img/travellingSalesmanProblem.jpg" style="float:left; margin-right:50px; cursor:pointer; cursor:hand; border:0" width="365" height="360" alt="TSP image">
-                            <p>Researched on the NP-Complete version of the Travelling Salesman Problem (TSP). Applied Christofides, Kruskal’s, Nearest Neighbour, and Brute Force algorithms to solve several real life specific versions of the TSP. Showed how the methods for each scenario can be modified so the problem can be solved in polynomial time. Improved the previous best runtimes of the algorithms researched by 3 to 10 percent. The project was primarily programmed in <b>C++</b>.</p>
-                         </div>
-                    </div>
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                          <li data-target="#myCarousel" data-slide-to="1"></li>
+                        </ol>
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                          <div class="item active">
+                            <h2 class="mb-5">Projects</h2>
+                             <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                                <div class="flex-grow-1">
+                                  <h3 class="mb-0">Buses R' Us - Java Android Application</h3>
+                                  <a href="https://github.com/DarianFry/BusesRUs">https://github.com/DarianFry/BusesRUs</a>
+                                  <img src="assets/img/busesRus.jpg" style="float:left; margin-right:50px; cursor:pointer; cursor:hand; border:0" width="365" height="360" alt="Buses R' Us image"> 
+                                  <p>A map application that marks stops and bus routes on the Greater Vancouver Transit system (Translink), retrieves real time arrival information at stops, plots user’s location on the map, and highlights the nearest stop. Extracted and implemented <b>Java</b> class associations from <b>UML</b> class diagrams. Wrote and executed extensive unit tests for robust classes in <b>jUnit</b>. Built multiple parsers including a string parser, <b>JSON Object parser</b>, and <b>JSON Array parser</b></p>
+                                </div>
+                             </div>
+                          </div>
+                      
+                          <div class="item">
+                            <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                                <div class="flex-grow-1">
+                                    <h3 class="mb-0">Travelling Salesman Problem - C++ Research Project</h3>
+                                    <a href="https://github.com/DarianFry/TravellingSalesman">https://github.com/DarianFry/TravellingSalesman</a>
+                                    <img src="assets/img/travellingSalesmanProblem.jpg" style="float:left; margin-right:50px; cursor:pointer; cursor:hand; border:0" width="365" height="360" alt="TSP image">
+                                    <p>Researched on the NP-Complete version of the Travelling Salesman Problem (TSP). Applied Christofides, Kruskal’s, Nearest Neighbour, and Brute Force algorithms to solve several real life specific versions of the TSP. Showed how the methods for each scenario can be modified so the problem can be solved in polynomial time. Improved the previous best runtimes of the algorithms researched by 3 to 10 percent. The project was primarily programmed in <b>C++</b>.</p>
+                                 </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- Left and right controls -->
+                        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                          <span class="glyphicon glyphicon-chevron-left"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                          <span class="glyphicon glyphicon-chevron-right"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                      </div>
                 </div>
             </section>
             <hr class="m-0" />
@@ -108,6 +132,7 @@
                         <div class="flex-shrink-0"><span class="text-primary">January 2020 - June 2020</span></div>
                         <img src="assets/img/lancastercrest.png" width="153" height="187" alt="lancastercrest">
                     </div>
+                    <br>
                     <div class="d-flex flex-column flex-md-row justify-content-between">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">MOOC</h3>
@@ -144,12 +169,10 @@
                         <li class="list-inline-item"><i class="devicon-javascript-plain"></i></li>
                         <li class="list-inline-item"><i class="fab fa-bootstrap"></i></li>
                         </ul>
-                    <ul class="list-inline">
-                        <li class="list-inline-item">R,</li>
-                        <li class="list-inline-item">Matlab,</li>
-                        <li class="list-inline-item">SQL,</li>
+                        <li class="list-inline-item">R</li>
+                        <li class="list-inline-item">Matlab</li>
+                        <li class="list-inline-item">SQL</li>
                         <li class="list-inline-item">Responsive-Design</li>
-                    </ul>
                     <br>
                     <div class="subheading mb-3">Courses Taken</div>
                     <p>Throughout university the courses I have taken include:</p>
