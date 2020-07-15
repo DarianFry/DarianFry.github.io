@@ -5870,6 +5870,11 @@ a.close.disabled {
   display: block;
 }
 
+.carousel-item > p 
+{
+   margin-right: 25%;
+}
+
 .carousel-item-next:not(.carousel-item-left),
 .active.carousel-item-right {
   transform: translateX(100%);
@@ -5961,7 +5966,7 @@ a.close.disabled {
 .carousel-indicators {
   position: absolute;
   right: 0;
-  bottom: 0;
+  bottom: 50;
   left: 0;
   z-index: 15;
   display: flex;
