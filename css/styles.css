@@ -5961,7 +5961,7 @@ a.close.disabled {
 .carousel-indicators {
   position: absolute;
   right: 0;
-  bottom: -50px;
+  bottom: 0;
   left: 0;
   z-index: 15;
   display: flex;
@@ -5976,6 +5976,7 @@ a.close.disabled {
   flex: 0 1 auto;
   width: 30px;
   height: 3px;
+  margin-top: 50px;
   margin-right: 3px;
   margin-left: 3px;
   text-indent: -999px;
