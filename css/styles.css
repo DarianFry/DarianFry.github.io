@@ -5967,6 +5967,8 @@ a.close.disabled {
   position: absolute;
   right: 0;
   left: 0;
+  top: -50px;
+  bottom: 0;
   z-index: 15;
   display: flex;
   justify-content: center;
@@ -5982,7 +5984,6 @@ a.close.disabled {
   height: 3px;
   margin-right: 3px;
   margin-left: 3px;
-  bottom: -50px;
   text-indent: -999px;
   cursor: pointer;
   background-color: #fff;
