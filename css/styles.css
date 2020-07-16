@@ -5967,8 +5967,7 @@ a.close.disabled {
   position: absolute;
   right: 0;
   left: 0;
-  top: 0;
-  bottom: -50px;
+  bottom: 0;
   z-index: 15;
   display: flex;
   justify-content: center;
