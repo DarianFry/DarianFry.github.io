@@ -5970,7 +5970,7 @@ a.close.disabled {
   bottom: -100px;
   z-index: 15;
   display: flex;
-  justify-content: center;
+  justify-content: left;
   padding-left: 0;
   margin-right: 15%;
   margin-left: 15%;
