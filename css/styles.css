@@ -64,7 +64,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #363636;
   text-align: left;
   background-color: #081938;
 }
@@ -87,6 +87,7 @@ h1, h2, h3, h4, h5, h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  color: #e7e7e7;
 }
 
 abbr[title],
@@ -439,14 +440,20 @@ mark,
   background-color: #fcf8e3;
 }
 
+li,
+.li {
+  color: #e7e7e7;
+}
 .list-unstyled {
   padding-left: 0;
   list-style: none;
 }
 
+
 .list-inline {
   padding-left: 0;
   list-style: none;
+  color: #e7e7e7;
 }
 
 .list-inline-item {
@@ -10040,6 +10047,7 @@ p.lead {
   text-transform: uppercase;
   font-weight: 500;
   font-size: 1.5rem;
+  color: #e7e7e7;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
