@@ -66,7 +66,7 @@ body {
   line-height: 1.5;
   color: #363636;
   text-align: left;
-  background-color: #020a1b;
+  background-color: #46474700;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -87,7 +87,7 @@ h1, h2, h3, h4, h5, h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
-  color: #e7e7e7;
+  color: #0c0c0c;
 }
 
 abbr[title],
@@ -442,7 +442,7 @@ mark,
 
 li,
 .li {
-  color: #e7e7e7;
+  color:#0c0c0c;
 }
 .list-unstyled {
   padding-left: 0;
@@ -453,7 +453,7 @@ li,
 .list-inline {
   padding-left: 0;
   list-style: none;
-  color: #e7e7e7;
+  color: #0c0c0c;
 }
 
 .list-inline-item {
@@ -9812,7 +9812,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #ace1af !important;
+  color: #47b94d !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -10047,7 +10047,7 @@ p.lead {
   text-transform: uppercase;
   font-weight: 500;
   font-size: 1.5rem;
-  color: #e7e7e7;
+  color: #0c0c0c;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
